@@ -3,6 +3,7 @@ var y = prompt("ingrese un numero");
 num1 = parseInt(x);
 num2 = parseInt(y);
 
+/*
   var z =  prompt("Ingrese 1 para SUMAR \n"
         +"Ingrese 2 para RESTAR \n"
         +"Ingrese 3 para MULTIPLICAR \n"
@@ -32,7 +33,7 @@ num2 = parseInt(y);
                             alert("No esocogió opcion");
                     break;
             }
-
+*/
 
 /*
         
