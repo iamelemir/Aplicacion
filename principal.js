@@ -5,8 +5,8 @@ var y = prompt("ingrese un numero");
 num1 = parseInt(x);
 num2 = parseInt(y);
   */
-
- for (i=1;i<10;i++){
+/***
+ * for (i=1;i<10;i++){
     document.write("<br><b>La tabla del " + i + ":</b><br>")
     for (j=1;j<10;j++) {
     document.write(i + " x " + j + ": ")
@@ -14,7 +14,29 @@ num2 = parseInt(y);
     document.write("<br>")
     }
     }
+ *  function saludoInicial(){
+        var nombre = prompt("ingresa tu nombre");
+        document.write("<H1> Hola " + nombre +  ", como estas?</H1>");
+        
+    }
+ * 
+ */
 
+
+
+function media(valor1,valor2){
+    var resultado
+    resultado = (valor1 + valor2) / 2
+    return resultado
+    }
+document.write( media(20,34));
+
+function media_2(valor1,valor2){
+    var resultado
+    resultado = (valor1 + valor2) / 2
+    return resultado
+    }
+document.write( media(20,34));
 /*
 
     var suma=0;
