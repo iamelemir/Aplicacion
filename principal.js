@@ -31,12 +31,13 @@ function media(valor1,valor2){
     }
 document.write( media(20,34));
 
-function media_2(valor1,valor2){
-    var resultado
-    resultado = (valor1 + valor2) / 2
-    return resultado
-    }
-document.write( media(20,34));
+/**
+ * 
+ * git add .
+ * git commit
+ * git push
+ * 
+ */
 /*
 
     var suma=0;
