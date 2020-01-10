@@ -122,8 +122,7 @@ document.write(isNaN(media));
  * var num1 = 2;
 
 var num3 = 5;
- */
-
+ */       
 
 
 
