@@ -17,7 +17,7 @@
 
     body {
         text-align: center;
-        background-color: cornflowerblue;
+        background-image: url(prube/fondo1.jpg);
         }
 
     #agrupar {
@@ -27,7 +27,7 @@
             }
 
     #cabecera {
-            background: #FFFBB9;
+            background: rgb(240, 247, 237);
             border: 1px solid #999999;
             padding: 20px;
             text-align: center;
@@ -37,6 +37,7 @@
             background: #CCCCCC;
             padding: 5px 15px;
             margin: 15px auto;
+            
             }
 
      #menu li {
