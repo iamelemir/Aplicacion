@@ -4,8 +4,17 @@
     }
 
     h1 {
-        font: bold 20px verdana, sans-serif;
+        font:bolder 30px verdana, sans-serif;
+        font-style:initial;
+        
+        
         }
+
+    #titulo{
+        text-align: left;
+        padding-left: 40px;
+         }
+
     h2 {
         font: bold 14px verdana, sans-serif;
         }
@@ -17,73 +26,187 @@
 
     body {
         text-align: center;
-        background-image: url(prube/fondo1.jpg);
+        background-color: rgb(255, 255, 255);
         }
-
+/* 
+background-color: rgba(128, 191, 241, 0.603);
+*/
     #agrupar {
-            width: 80%;
-            margin: 15px auto;
+            width: 100%;
+            margin: 0px auto;
             text-align: left;
-            }
-
+            background-color: rgba(128, 191, 241, 0.603);
+           }
+/* 
+ rgba(171, 236, 87, 0.911);
+*/
     #cabecera {
-            background: rgb(240, 247, 237);
-            border: 1px solid #999999;
-            padding: 20px;
+        background-color: rgba(128, 191, 241, 0.603);
+            width: 100%;
+            padding: 10px;
             text-align: center;
+  
             }
 
     #menu {
-            background: #CCCCCC;
-            padding: 5px 15px;
-            margin: 15px auto;
-            
+        background-color: rgba(128, 191, 241, 0.603);
+            padding: 10px 20px;
+            margin: 1px auto;
+            text-align: center;
+          
             }
+
+
+    article {
+        background: rgb(0, 223, 130);
+        text-align: left;
+        padding: 70px;
+        width: 90%;
+        margin-bottom: 2px;
+        height: 400px;
+
+        }
+
 
      #menu li {
             display: inline-block;
             list-style: none;
-            padding: 5px;
-            font: bold 14px verdana, sans-serif;
+            padding: 0px;
+            font: bold 20px verdana, sans-serif;
+            width: 100px;
+            
             }
     #seccion {
             width: 100% ;
             float: left;
-            margin: 5px auto;
-            }
-    #seccion1{
-                float: right;
-                width: 500px;
-                margin: 20px;
-                }
-    #columna {
-            float: left;
-            width: 400px;
-            margin: 20px 0px;
-            padding: 20px;
-            background: #CCCCCC;
-            }
-    
-    #pie {
+            margin: 0px auto;
+
+             }
+
+    #marca {
             clear: both;
             text-align: center;
-            padding: 20px;
-            border-top: 2px solid #999999;
+            padding: 0px;
+            background-color: rgba(128, 191, 241, 0.603);
     }
-    article {
-        background: #FFFBCC;
-        border: 1px solid #999999;
-        padding: 20px;
-        margin-bottom: 15px;
-        }
-    article footer {
-        text-align: right;
-        }
-    time {
-        color: #999999;
-            }
-    figcaption {
-        font: italic 14px verdana, sans-serif;
-                }
+   
+
+
+    /*  
     
-                
+    
+    
+    */
+    
+    
+
+#envoltura{
+    background-color: rgba(128, 191, 241, 0.603);
+    position:absolute;
+    /*left y top al 50% para que quede centrado en la pantalla*/
+    left:70%;
+    top:60%;
+    margin-left:-165px;
+    margin-top: -210px;
+    width: 400px;
+    height: 400px;
+ }
+ 
+#contenedor{
+    width: 400px;
+    height: 400px;
+    border: 1px solid rgb(255, 255, 255);  
+    background-color: rgba(128, 191, 241, 0.603);
+}
+
+#cuerpo{
+    background-color: rgba(128, 191, 241, 0.603);
+    border:solid #ccc;
+    /*aumentando el 2px 'aparece' un borde*/
+    border-width: 0px;
+    padding:15px 35px;
+    text-align: center;
+}
+ 
+label{
+    color: #666;
+    font-weight: bold;
+  }
+
+
+ 
+input{
+    /*border: 1px solid #999; No usar esta línea y dejar box-shadow hace efecto de profundidad*/
+    border-radius:5px; /*probar con 10px se hacen ovalados los inputs*/
+    box-shadow: 2px 2px 3px 1px rgba(0,0,0,.8);
+    font:bold 12px Arial, Helvetica, sans-serif;
+    height: 24px;
+    line-height: 20px;
+    padding:0 2px;
+    width: 230px;
+}
+ 
+input#usuario{
+    background:rgb(255, 255, 255) no-repeat 0 2px; /*probar con #ddf.
+                                                                Para mover arriba-abajo la imagen 'jugar' con 2px, 5px */
+    /*Para que el texto dentro del input se mueva*/
+    padding-left: 25px; /*Sirve para darle espacio ala imagen, probar con 30px 10px y ver comportamiento*/
+    
+}
+ 
+input#contrasenia{
+    background:rgb(255, 255, 255) no-repeat 0 5px;
+    padding-left: 25px;
+    
+ 
+}
+
+.boton{
+    text-align: center;
+    background: rgb(0, 223, 130);
+    /*background: -moz-linear-gradient(top,#eee,#ccc);*/
+    /*background: -moz-linear-gradient(top,#fc6,#f63);*/
+    padding-left: 25px;
+    /*Color del texto*/
+    color: rgb(0, 0, 0);
+    width: 260px;
+    
+}
+ 
+/*Tip estas instrucciones animan al boton enviar
+ * para que se vea como si se pulsara*/
+.boton:active{
+    position: relative;
+    top: 4px;
+    text-align: center;
+}
+ 
+#pie{
+  
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    height: 25px;
+    line-height: 24px;
+    text-align: center;
+}
+ 
+form,p{
+    margin:0;
+    text-align: center;
+}
+ 
+p{
+    /*Para que los elementos del cuerpo
+     * se separen entre ellos probar con
+     * 10px 20px                      */
+    padding-bottom: 10px;
+    text-align: center;
+}
+ 
+/*Para separar el botón de ingresar*/
+#bot{
+    padding-top: 20px;
+    width: 50px;
+    text-align: center;
+}
