@@ -4,6 +4,7 @@
     }
 
     h1 {
+        width:100%;
         font:bolder 30px verdana, sans-serif;
         font-style:initial;
         
@@ -11,6 +12,7 @@
         }
 
     #titulo{
+        width:100%;
         text-align: left;
         padding-left: 40px;
          }
@@ -20,11 +22,12 @@
         }
 
     header, section, footer, aside, nav, article, figure, figcaption,hgroup{
-    
+        width:100%;
         display: block;
     }
 
     body {
+       width:100%;
         text-align: center;
         background-color: rgb(255, 255, 255);
         }
@@ -41,15 +44,17 @@ background-color: rgba(128, 191, 241, 0.603);
  rgba(171, 236, 87, 0.911);
 */
     #cabecera {
-        background-color: rgba(128, 191, 241, 0.603);
             width: 100%;
+            background-color: rgba(128, 191, 241, 0.603);
             padding: 10px;
             text-align: center;
+
   
             }
 
     #menu {
-        background-color: rgba(128, 191, 241, 0.603);
+            width:100%;
+            background-color: rgba(128, 191, 241, 0.603);
             padding: 10px 20px;
             margin: 1px auto;
             text-align: center;
@@ -58,10 +63,10 @@ background-color: rgba(128, 191, 241, 0.603);
 
 
     article {
+        width:100%;
         background: rgb(0, 223, 130);
         text-align: left;
         padding: 70px;
-        width: 90%;
         margin-bottom: 2px;
         height: 400px;
 
@@ -83,6 +88,18 @@ background-color: rgba(128, 191, 241, 0.603);
 
              }
 
+     #envoltura{
+                background-color: rgba(128, 191, 241, 0.603);
+                position:absolute;
+                /*left y top al 50% para que quede centrado en la pantalla*/
+                left:70%;
+                top:60%;
+                margin-left:-165px;
+                margin-top: -210px;
+                width: 400px;
+                height: 400px;
+             }
+             
     #marca {
             clear: both;
             text-align: center;
@@ -98,23 +115,21 @@ background-color: rgba(128, 191, 241, 0.603);
     
     */
     
+    #condicion{
+    width:15px;
+    height:15px;
+    display:flex;
+    margin:0px 15px 0 0;
+    float: left;
+    
+    }
+
     
 
-#envoltura{
-    background-color: rgba(128, 191, 241, 0.603);
-    position:absolute;
-    /*left y top al 50% para que quede centrado en la pantalla*/
-    left:70%;
-    top:60%;
-    margin-left:-165px;
-    margin-top: -210px;
-    width: 400px;
-    height: 400px;
- }
  
 #contenedor{
     width: 400px;
-    height: 400px;
+    height: 435px;
     border: 1px solid rgb(255, 255, 255);  
     background-color: rgba(128, 191, 241, 0.603);
 }
@@ -130,10 +145,15 @@ background-color: rgba(128, 191, 241, 0.603);
  
 label{
     color: #666;
-    font-weight: bold;
+    float: left;
+    display: block;
+    padding-left: 40px;
+   font-size: 15px;
+   text-align: left;
+    width: 300px;
+    height: 35px;
   }
-
-
+ 
  
 input{
     /*border: 1px solid #999; No usar esta línea y dejar box-shadow hace efecto de profundidad*/
@@ -144,6 +164,7 @@ input{
     line-height: 20px;
     padding:0 2px;
     width: 230px;
+   
 }
  
 input#usuario{
@@ -166,7 +187,7 @@ input#contrasenia{
     background: rgb(0, 223, 130);
     /*background: -moz-linear-gradient(top,#eee,#ccc);*/
     /*background: -moz-linear-gradient(top,#fc6,#f63);*/
-    padding-left: 25px;
+   
     /*Color del texto*/
     color: rgb(0, 0, 0);
     width: 260px;
@@ -178,7 +199,7 @@ input#contrasenia{
 .boton:active{
     position: relative;
     top: 4px;
-    text-align: center;
+    
 }
  
 #pie{
@@ -206,7 +227,8 @@ p{
  
 /*Para separar el botón de ingresar*/
 #bot{
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-left: 35px;;
     width: 50px;
     text-align: center;
 }
