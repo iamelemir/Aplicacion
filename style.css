@@ -1,219 +1,198 @@
 * {
     margin: 0px;
     padding: 0px;
-    }
+}
 
-    h1 {
-        width:100%;
-        font:bolder 30px verdana, sans-serif;
-        font-style:initial;
-        
-        
-        }
-    #lista{
+h1 {
+    width: 100%;
+    font: bolder 30px verdana, sans-serif;
+    font-style: initial;
+}
 
-        width: 100%;
-    }
+#lista {
+    width: 100%;
+}
 
-    #titulo{
-        width:100%;
-        text-align: left;
-        padding-left: 40px;
-         }
+#titulo {
+    width: 100%;
+    text-align: left;
+    padding-left: 40px;
+}
 
-    h2 {
-        font: bold 14px verdana, sans-serif;
-        }
+h2 {
+    font: bold 14px verdana, sans-serif;
+}
 
-    header, section, footer, aside, nav, article, figure, figcaption,hgroup{
-        width:100%;
-        display: block;
-    }
+header,
+section,
+footer,
+aside,
+nav,
+article,
+figure,
+figcaption,
+hgroup {
+    width: 100%;
+    display: block;
+}
 
-    body {
-        width:100%;
-        text-align: center;
-        background-color: rgb(255, 255, 255);
-        }
+body {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
 
-    #agrupar {
-            width: 100%;
-            margin: 0px auto;
-            text-align: left;
-            background-color: rgba(128, 191, 241, 0.603);
-           }
+#agrupar {
+    width: 100%;
+    margin: 0px auto;
+    text-align: left;
+    background-color: rgba(128, 191, 241, 0.603);
+}
 
-    #cabecera {
-            width: 100%;
-            background-color: rgba(128, 191, 241, 0.603);
-            padding: 10px;
-            text-align: center;
-            margin: 0px auto;
-  
-            }
+#cabecera {
+    width: 100%;
+    background-color: rgba(128, 191, 241, 0.603);
+    padding: 10px;
+    text-align: center;
+    margin: 0px auto;
+}
 
-    
+article {
+    width: 100%;
+    background: rgb(0, 223, 130);
+    text-align: left;
+    padding: 70px;
+    margin-bottom: 2px;
+    height: 400px;
+}
 
-    article {
-        width:100%;
-        background: rgb(0, 223, 130);
-        text-align: left;
-        padding: 70px;
-        margin-bottom: 2px;
-        height: 400px;
+#envoltura {
+    background-color: rgba(128, 191, 241, 0.603);
+    position: absolute;
+    left: 70%;
+    top: 60%;
+    margin-left: -165px;
+    margin-top: -210px;
+    width: 400px;
+    height: 400px;
+}
 
-        }
-
-
-     
-
-
-     #envoltura{
-                background-color: rgba(128, 191, 241, 0.603);
-                position:absolute;
-                left:70%;
-                top:60%;
-                margin-left:-165px;
-                margin-top: -210px;
-                width: 400px;
-                height: 400px;
-             }
-             
-    #marca {
-            clear: both;
-            text-align: center;
-            padding: 0px;
-            background-color: rgba(128, 191, 241, 0.603);
-    }
-   
+#marca {
+    clear: both;
+    text-align: center;
+    padding: 0px;
+    background-color: rgba(128, 191, 241, 0.603);
+}
 
 
-    /*  
+/*  
     
     
     
     */
-    
-    #condicion{
-    width:15px;
-    height:15px;
-    display:flex;
-    margin:0px 15px 0 0;
+
+#condicion {
+    width: 15px;
+    height: 15px;
+    display: flex;
+    margin: 0px 15px 0 0;
     float: left;
-    
-    }
+}
 
-    
-
- 
-#contenedor{
+#contenedor {
     width: 400px;
     height: 435px;
-    border: 1px solid rgb(255, 255, 255);  
+    border: 1px solid rgb(255, 255, 255);
     background-color: rgba(128, 191, 241, 0.603);
 }
 
-#cuerpo{
+#cuerpo {
     background-color: rgba(128, 191, 241, 0.603);
-    border:solid #ccc;
+    border: solid #ccc;
     border-width: 0px;
-    padding:15px 35px;
+    padding: 15px 35px;
     text-align: center;
 }
- 
-label{
+
+label {
     color: #666;
     float: left;
     display: block;
     padding-left: 40px;
-   font-size: 15px;
-   text-align: left;
+    font-size: 15px;
+    text-align: left;
     width: 300px;
     height: 35px;
-  }
- 
- 
-input{
-    
-    border-radius:0px; 
-    box-shadow: 1px 1px 0px 0px rgba(0,0,0,.8);
-    font:bold 12px Arial, Helvetica, sans-serif;
+}
+
+input {
+    border-radius: 0px;
+    box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, .8);
+    font: bold 12px Arial, Helvetica, sans-serif;
     height: 24px;
     line-height: 20px;
-    padding:0 2px;
+    padding: 0 2px;
     width: 230px;
-   
 }
 
 #seccion {
-    width: 100% ;
+    width: 100%;
     float: left;
     margin: 0px auto;
+}
 
-     }
+#menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px;
+    font: bold 20px verdana, sans-serif;
+    width: 120px;
+}
 
-     #menu li {
-        display: inline-block;
-        list-style: none;
-        padding: 0px;
-        font: bold 20px verdana, sans-serif;
-        width: 120px;
-        
-        }
-        
-     #menu {
-        width:100%;
-        background-color: rgba(128, 191, 241, 0.603);
-     
-        padding: 10px 20px;
-        margin: 1px auto;
-        text-align: center;
-        
-        }
+#menu {
+    width: 100%;
+    background-color: rgba(128, 191, 241, 0.603);
+    padding: 10px 20px;
+    margin: 1px auto;
+    text-align: center;
+}
 
- input#iniciar{
-      
-    background: rgb(0, 223, 130) no-repeat 0 2px; 
+input#iniciar {
+    background: rgb(0, 223, 130) no-repeat 0 2px;
     float: left;
-    position:absolute;
-    box-shadow: 0px 0px 0px 0px rgba(0,0,0,.8);
-    margin-left:90px;
+    position: absolute;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, .8);
+    margin-left: 90px;
     margin-top: 5px;
-
     width: 120px;
     height: 25px;
     text-align: center;
- }
-
-input#usuario{
-    background:rgb(255, 255, 255) no-repeat 0 2px; 
-    padding-left: 25px; 
 }
- 
-input#contrasenia{
-    background:rgb(255, 255, 255) no-repeat 0 5px;
+
+input#usuario {
+    background: rgb(255, 255, 255) no-repeat 0 2px;
     padding-left: 25px;
-    
- 
 }
 
-.boton{
-    box-shadow: 0px 0px 0px 0px rgba(0,0,0,.8);
+input#contrasenia {
+    background: rgb(255, 255, 255) no-repeat 0 5px;
+    padding-left: 25px;
+}
+
+.boton {
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, .8);
     text-align: center;
     background: rgb(0, 223, 130);
     color: rgb(0, 0, 0);
     width: 260px;
-    
 }
 
-.boton:active{
+.boton:active {
     position: relative;
     top: 4px;
-    
 }
- 
-#pie{
-  
+
+#pie {
     border: 1px solid rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-size: 40px;
@@ -221,21 +200,22 @@ input#contrasenia{
     line-height: 24px;
     text-align: center;
 }
- 
-form,p{
-    margin:0;
+
+form,
+p {
+    margin: 0;
     text-align: center;
 }
- 
-p{
-  
+
+p {
     padding-bottom: 10px;
     text-align: center;
 }
- 
-#bot{
+
+#bot {
     padding-top: 10px;
-    padding-left: 35px;;
+    padding-left: 35px;
+    ;
     width: 50px;
     text-align: center;
 }

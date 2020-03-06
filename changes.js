@@ -1,4 +1,3 @@
-
 /*
 var x = prompt("ingrese un numero");
 var y = prompt("ingrese un numero");
@@ -122,7 +121,7 @@ document.write(isNaN(media));
  * var num1 = 2;
 
 var num3 = 5;
- */       
+ */
 
 
 
