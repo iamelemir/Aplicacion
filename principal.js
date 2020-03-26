@@ -1,8 +1,8 @@
-function hacerclic() {
-    var el = document.querySelector("div.boton input[name='submit']");
-    document.querySelector("#li p:first-child").onclick = mostraralerta;
-}
-function mostraralerta() {
-    alert('hizo clic!');
-}
-window.onload = hacerclic;
+var assert = require('assert');
+assert.equal(50, 70, "My message goes here");
+
+var assert = require('assert');
+assert.equal(50, 70, "My message goes here");
+
+var assert = require('assert');
+assert.equal(50, 70, "My message goes here");
